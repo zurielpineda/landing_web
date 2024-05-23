@@ -1,24 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/core.js"></script>
     <title>Landing web</title>
-</head>
+  </head>
 
-<body>
-    <div class="flex-container">
-        <h1 id="title" onclick="alertMessage()">¡Welcome to the jungle!</h1>
-        <div class="flex-box-img">
-            <img id="img-rex" src="assets/rex-rock.jpg" alt="" />
-        </div>
-        <div class="subtitle">
-            <p>¡Let's Rock!</p>
-        </div>
-    </div>
-</body>
+  <body>
+    <header>
+      <div class="container">
+        <p class="logo">Programa YA!</p>
+        <nav>
+          <a href="#somos-proya">Quienes somos</a>
+          <a href="#nuestros-programas">Nuestros programas</a>
+          <a href="#caracteristicas">Características</a>
+        </nav>
+      </div>
+    </header>
+    <section id="hero">
+      <h1>
+        Aprende a programar <br />
+        con los mejores
+      </h1>
+      <form action="https://www.youtube.com/?gl=ES&hl=es&themeRefresh=1">
+        <button>Aplica YA!</button>
+      </form>
+    </section>
 
+    <section id="somos-proya">
+      <div class="container">
+        <div class="img-container"></div>
+        <h2>Somos <span class="color-acento">programa YA!</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          ipsam facere officiis doloremque itaque labore voluptatum eos! Esse,
+          tempore! Quibusdam commodi eos nisi neque, labore deserunt optio iste
+          eveniet sunt.
+        </p>
+      </div>
+    </section>
+
+    <section id="nuestros-programas">
+      <div class="container">
+        <h2>Nuestros programas</h2>
+        <div class="programas">
+          <div class="carta">
+            <h3>Programador Front-end</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              laborum reiciendis tempora aliquam hic fugit pariatur optio
+              temporibus? Nesciunt eos non molestiae aperiam nulla excepturi
+              debitis ut ea eligendi reprehenderit.
+            </p>
+            <button>+ info</button>
+          </div>
+          <div class="carta">
+            <h3>Programador Full-Stack</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              laborum reiciendis tempora aliquam hic fugit pariatur optio
+              temporibus? Nesciunt eos non molestiae aperiam nulla excepturi
+              debitis ut ea eligendi reprehenderit.
+            </p>
+            <button>+ info</button>
+          </div>
+          <div class="carta">
+            <h3>Programador Python</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+              laborum reiciendis tempora aliquam hic fugit pariatur optio
+              temporibus? Nesciunt eos non molestiae aperiam nulla excepturi
+              debitis ut ea eligendi reprehenderit.
+            </p>
+            <button>+ info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="caracteristicas">
+      <div class="container">
+        <ul>
+          <li>🔹​100% online</li>
+          <li>🔹Flexibilidad de horarios​</li>
+          <li>🔹Soporte 1:1​</li>
+          <li>🔹Asistencia financiera​</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="final">
+      <h2>Listo para programar?</h2>
+      <button>Aplica YA!</button>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; ProgramaYa 2025</p>
+      </div>
+    </footer>
+  </body>
 </html>
