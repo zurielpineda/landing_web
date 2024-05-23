@@ -2,15 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/core.js"></script>
     <title>Landing web</title>
 </head>
 
 <body>
-    <h1>¡Welcome to the jungle!</h1>
+    <div class="flex-container">
+        <h1 id="title" onclick="alertMessage()">¡Welcome to the jungle!</h1>
+        <div class="flex-box-img">
+            <img id="img-rex" src="assets/rex-rock.jpg" alt="" />
+        </div>
+        <div class="subtitle">
+            <p>¡Let's Rock!</p>
+        </div>
+    </div>
 </body>
 
 </html>
