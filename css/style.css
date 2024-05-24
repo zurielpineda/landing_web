@@ -103,9 +103,8 @@ header a:hover {
     flex-direction: column;
     height: 90vh;
     color: white;
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/hero.jpg");
+    background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+        url("/assets/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -150,25 +149,22 @@ header a:hover {
     background-position: center center;
     padding: 50px 0;
     margin: 30px;
-    border-radius: 15PX;
+    border-radius: 15px;
 }
 
 .carta:first-child {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/front-end.jpg");
+    background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+        url("/assets/front-end.jpg");
 }
 
 .carta:nth-child(2) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/full-stack.jpg");
+    background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+        url("/assets/full-stack.jpg");
 }
 
 .carta:nth-child(3) {
-    background-image: linear-gradient(0deg,
-            rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/python.jpg");
+    background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+        url("/assets/python.jpg");
 }
 
 #caracteristicas .container {
@@ -178,7 +174,7 @@ header a:hover {
 
 #caracteristicas li {
     margin: 15px 0px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 #final {
@@ -213,24 +209,6 @@ footer p {
 footer .container {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: end;
     height: 150px;
-}
-
-@media(min-width:720px) {
-    header {
-        position: fixed;
-        width: 100%;
-    }
-
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-    }
 }
