@@ -58,6 +58,23 @@
     footer .container {
         justify-content: flex-end;
     }
+
+    /* MEDIA CONTACT FORM */
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper>* {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 1em;
+        text-align: left;
+    }
 }
 
 @media (min-width: 910px) {

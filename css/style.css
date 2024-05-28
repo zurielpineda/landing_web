@@ -214,11 +214,11 @@ footer .container {
 }
 
 /* CSS CONTACT FORM */
-#contact .container {
-    max-width: 1178px;
+#contact .container-c {
+    /*     max-width: 1178px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
+    padding: 1.5em; */
 }
 
 #contact .logo-contact {
@@ -231,7 +231,7 @@ footer .container {
 }
 
 .contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    /*     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3); */
 }
 
 .contact-wrapper>* {
