@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <script type="text/javascript" src="js/core.js"></script>
+    <!-- fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Landing web</title>
   </head>
 
@@ -17,13 +28,14 @@
           <a href="#somos-proya">Quienes somos</a>
           <a href="#nuestros-programas">Nuestros programas</a>
           <a href="#caracteristicas">Características</a>
+          <a href="#contact">Contacto</a>
         </nav>
       </div>
     </header>
     <section id="hero">
       <h1>
-        Aprende a programar <br />
-        con los mejores
+        ¡Aprende a programar <br />
+        con los mejores!
       </h1>
       <form action="https://www.youtube.com/?gl=ES&hl=es&themeRefresh=1">
         <button>Aplica YA!</button>
@@ -93,9 +105,62 @@
         </ul>
       </div>
     </section>
+    <section id="contact">
+      <div class="container">
+        <h1 class="logo-contact">CONTACTA <span>YA!</span></h1>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <h3>Contáctenos!</h3>
+            <form action="">
+              <p>
+                <label for="fullName">Nombre completo</label>
+                <input type="text" id="fullName" name="fullName" />
+              </p>
 
+              <p>
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" />
+              </p>
+
+              <p>
+                <label for="tel">Teléfono</label>
+                <input type="tel" id="tel" name="tel" />
+              </p>
+
+              <p>
+                <label for="affair">Asunto</label>
+                <input type="text" id="affair" name="affair" />
+              </p>
+
+              <p class="block">
+                <label for="message">Mensaje</label>
+                <textarea name="message" rows="3"></textarea>
+              </p>
+              <p class="block">
+                <button type="submit">Enviar</button>
+              </p>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h4>Más info</h4>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Calle Cuautemoc # 21</li>
+              <li><i class="fas fa-phone"></i> 11 11 11 11 11</li>
+              <li>
+                <i class="fas fa-envelope-open-text"></i>
+                contacto@developerco.com
+              </li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              ratione.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="final">
-      <h2>Listo para programar?</h2>
+      <h2>¿Listo para programar?</h2>
       <button>Aplica YA!</button>
     </section>
 
