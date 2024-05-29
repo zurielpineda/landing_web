@@ -1,4 +1,5 @@
-@media (min-width: 720px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
     header {
         position: fixed;
         width: 100%;
@@ -22,6 +23,8 @@
     #somos-proya .container {
         display: flex;
         justify-content: space-evenly;
+        text-align: center;
+        padding: 90px 12px;
     }
 
     #somos-proya .texto {
@@ -45,6 +48,10 @@
         width: 400px;
         border-radius: 15px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #nuestros-programas .container {
+        padding: 108px 12px;
     }
 
     #final h2 {
@@ -77,7 +84,8 @@
     }
 }
 
-@media (min-width: 910px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
     #caracteristicas .container {
         background-image: url("/assets/student.jpg");
         background-size: 550px 350px;
@@ -92,9 +100,19 @@
     #caracteristicas ul {
         margin-left: 100px;
     }
+
+    #somos-proya .container {
+        text-align: center;
+        padding: 90px 12px;
+    }
+
+    #contact .logo-contact {
+        margin: 15px 0px;
+    }
 }
 
-@media (min-width: 1060px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
     #nuestros-programas .programas {
         display: flex;
         justify-content: center;
@@ -113,9 +131,7 @@
         padding: 50px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
-}
 
-@media (min-width: 1200px) {
     #caracteristicas {
         background-position-x: calc(100vw - 800px);
     }
@@ -125,5 +141,6 @@
         background-size: 550px 350px;
         background-repeat: no-repeat;
         background-position: calc(100vw - 500px) 120px;
+        padding: 208px 12px;
     }
 }
