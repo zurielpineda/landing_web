@@ -103,7 +103,7 @@
 
     #somos-proya .container {
         text-align: center;
-        padding: 90px 12px;
+        padding: 100px 12px;
     }
 
     #contact .logo-contact {
@@ -141,6 +141,6 @@
         background-size: 550px 350px;
         background-repeat: no-repeat;
         background-position: calc(100vw - 500px) 120px;
-        padding: 208px 12px;
+        padding: 37vh 12px;
     }
 }
