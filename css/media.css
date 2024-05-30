@@ -41,7 +41,7 @@
     }
 
     #somos-proya .img-container {
-        background-image: url("/assets/somos-proya.jpg");
+        background-image: url("../assets/somos-proya.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -87,7 +87,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #caracteristicas .container {
-        background-image: url("/assets/student.jpg");
+        background-image: url("../assets/student.jpg");
         background-size: 550px 350px;
         background-repeat: no-repeat;
         background-position: calc(100vw - 500px) 120px;
@@ -137,7 +137,7 @@
     }
 
     #caracteristicas .container {
-        background-image: url("/assets/student.jpg");
+        background-image: url("../assets/student.jpg");
         background-size: 550px 350px;
         background-repeat: no-repeat;
         background-position: calc(100vw - 500px) 120px;

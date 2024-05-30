@@ -104,7 +104,7 @@ header a:hover {
     height: 100vh;
     color: white;
     background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-        url("/assets/hero.jpg");
+        url("../assets/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -154,17 +154,17 @@ header a:hover {
 
 .carta:first-child {
     background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-        url("/assets/front-end.jpg");
+        url("../assets/front-end.jpg");
 }
 
 .carta:nth-child(2) {
     background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-        url("/assets/full-stack.jpg");
+        url("../assets/full-stack.jpg");
 }
 
 .carta:nth-child(3) {
     background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-        url("/assets/python.jpg");
+        url("../assets/python.jpg");
 }
 
 #caracteristicas .container {
